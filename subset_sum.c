@@ -1,5 +1,6 @@
 // A Dynamic Programming solution for subset sum problem
 #include <stdio.h>
+#include <stdbool.h>
  
 // Returns true if there is a subset of set[] with sun equal to given sum
 bool isSubsetSum(int set[], int n, int sum)
